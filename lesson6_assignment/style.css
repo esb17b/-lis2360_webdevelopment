@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
-/* This was made by Elijah Butts on September 24, 2018 */
+/* This was made by Elijah Butts on May, 8 2019s */
 
 /*fonts */
 
 body {
+	margin: 0;
+	padding: 0;
 	font-size: 19px;
     font-family: Georgia, Times, Times, Times;
 	line-height: 1.6em;
@@ -16,12 +18,6 @@ body {
 	padding: 0 40px;
 }
 
-/* website border */
-
-body {
-border: 6px solid #494949;
- border-radius: 10px;
-}
 
 /* image cetering */
 
@@ -36,11 +32,13 @@ border: 6px solid #494949;
 
 p, li, td {
 	letter-spacing: 0.1em;
-	color: #FFFFFF;
+	color: #494949;
+	padding: 0 50px;
+
 }
 h1 {
 	font-size: 30px;
-	padding: 5px 0;
+	padding: 0 50px;
 	font-variant: large-caps;
 	letter-spacing: .5em;
 	line-height: 3em;
@@ -48,7 +46,7 @@ h1 {
 }
 h2 {
 	font-size: 30px;
-	padding: 6px;
+	padding: 0 50px;
 	font-variant: large-caps;
 	letter-spacing: 0.5em;
 	background-color: #494949;
@@ -61,7 +59,7 @@ h3 {
 	border-bottom-style: inset;
 	border-bottom-color: #494949;
      border-radius: 5px;
-	padding: 7px 0;
+	padding: 0 50px;
 	font-variant: large-caps;
 	font-style: italic;
 }
@@ -87,7 +85,7 @@ a:hover {
 /* borders */
 
 hr {
-	border: dotted #494949 5px;
+	border: solid #494949 5px;
      border-radius: 5px;
 }
 
@@ -119,6 +117,64 @@ th {
 	padding: 8px;
 	border: ridge  #494949 5px;
 }
+/* Div Styles */
+
+#container {
+		width: 1000px;
+		margin: 0 auto;
+		border:  2px round #fff;
+		background-color: #EECDA3;  
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  
+    background: linear-gradient(to right, #EF629F, #EECDA3); 
+		overflow: hidden;
+}
+#header{
+	width: 100%;
+	background-color: #EECDA3;  
+   background-color: #EECDA3;  
+    background: -webkit-linear-gradient(to right, #EECDA3, #EF629F);  
+    background: linear-gradient(to right, #EECDA3, #EF629F);
+				border-bottom: 2px dashed #494949; 
+}
+#content{
+	width: 700px;
+	float: left;
+	padding-bottom: 40px;
+	
+}
+#footer{
+		width: 100%;
+		background-color: #EECDA3;  
+    background: -webkit-linear-gradient(to right, #EECDA3, #EF629F);  
+    background: linear-gradient(to right, #EECDA3, #EF629F);
+				border-top: 2px dashed #494949;
+				padding: 40px 0;
+	
+}
+
+
+
+
+#sidebar{
+	width:  300px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	border-radius: 12px;
+}
+
+
+#sidebar p{
+padding: 20px;
+border:  2px solid #494949;
+border-radius: 10px;
+margin-right: 20px;
+margin-left: 20px;
+	
+}
+
+
+
 
 
 
