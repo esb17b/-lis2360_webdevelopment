@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<!--This was made by Elijah Butts on April 29, 2019-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Automation in the Workplace</title>
+
+    <!-- Bootstrap  -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- HTML5 and IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   
+
+    <!-- Custom styles -->
+    <link href="css/carousel.css" rel="stylesheet">
+       
+    <style>
+     
+      .navbar-inverse {
+          background-color: #EF629F;        
+          border-color: #EECDA3;            
+      }
+      .navbar-inverse .navbar-nav > li > a { 
+          color: #494949; 			       
+      }
+      .navbar-inverse .navbar-brand {
+          color: #494949;                   
+      }
+      @media (min-width: 768px){            
+        .navbar-wrapper .navbar {           
+          border-radius: 10px;
+        }
+        .navbar-wrapper {                   
+          margin-top: 0px;
+        }
+      }
+      /* Image carousel */
+      .carousel-inner > .item > img {
+        height: auto;                       
+      }
+       @media (max-width: 899px){
+        .carousel {                        
+          height: 400px;
+        }
+        .carousel .item {
+          height: 400px;
+          background-color: #FFF;
+        }
+       }
+       @media (max-width: 719px){           
+          .carousel-inner > .item > img {   
+            width: 719px;
+            max-width: 719px;
+            height: 400px;
+          }
+       }
+       
+       .btn-primary {
+          color: #494949;                   
+          background-color: #EF629F;       
+          border-color: #EECDA3;
+        }
+        .btn-primary:hover {  
+		   color: #fff;                 
+          background-color: #EF629F;        
+          border-color: #EECDA3;
+		   
+		   
+
+        }
+    </style>  
+  </head>
+
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Automation In the Workplace</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Overview</a></li>
+                <li><a href="#about">Video</a></li>
+                <li><a href="#contact">Timeline</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Important Robots<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Predator</a></li>
+                    <li><a href="#">PackBot</a></li>
+                    <li><a href="#">Aibo</a></li>
+                    <li><a href="#">Roomba</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+   
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+      
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/robot_arm_02.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Tecnological Advancements</h1>
+              <p>Robot arm welding.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/robot_arm_01.jpg"  alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Robot arm constructing</h1>
+              <p>Doing the work too dangerous for mere man</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/HONDA_ASIMO.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>March of the Robots</h1>
+              <p>Walking robot designed by Honda</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      <div class="item">
+          <img src="images/steam.jpg" alt="Forth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>The Steam Dream</h1>
+              <p>Advancements in steamtechnology were essential to automation</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+
+
+
+
+    <div class="container marketing">
+
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/predator.jpg" alt="Generic placeholder image">
+          <h2>Predator Drone</h2>
+          <p>Silent and deadly, a semi atanomous drone out on the hunt
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/PackBot.jpg" alt="Generic placeholder image">
+          <h2>PakBot</h2>
+          <p>Controlled robot with extendable arm, used for bomb defusal.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/aibo.jpg" alt="Generic placeholder image">
+          <h2>Aibo</h2>
+          <p>Robot Dog, who doesnt love dogs.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/Roomba.jpg" alt="Generic placeholder image">
+          <h2>Roomba</h2>
+          <p>Great cleaning device that does all the work for you</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->        
+      </div><!-- /.row -->
+
+
+      <!--FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">How much has automation taken over the workspace?</h2>
+          <p class="lead">Technology worldwide has advanced at an incredible rate. With each new year, the way we accomplish tasks and produce goods are being done in a more efficient and faster way. Companies are always looking to produce the most content at the cheapest price, and as a result use technology to aid in this process. As this desire for goods increases, robots and other forms of automation have been implemented to meet these demands. This new wave of robots in the workplace offers companies with an alternative to the human worker, creating a way for them to essentially have the same quality end product that a human worker can produce, at a lower cost.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/Bakery.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/Milling.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">What does implementing robots accomplish?</h2>
+          <p class="lead">As a new age of engineering and advancement in the workplace comes around, companies are implementing more and more machinery into their production methods. Robots in many cases have been proven to produce goods faster and at the same quality as humans. Businesses are looking for whatever way they can to maximize their means of production, and in most all cases, automation is the most cost effective way. All of this will in turn greatly increase the profits of companies by varying percentages.</p>
+      <p>Tools to assist in on the job?</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Tools to assist in on the<span class="text-muted"> Job?</span></h2>
+          <p class="lead">While machines are evolving at a pace where they can in some cases replace human workers, often times companies use robotics as simply tools that people to increase productivity. The underlying principle of automation and machinery in factories, stores, and other businesses, is to speed up the production process. With the use of human guided tools, companies can still keep workers while having a vast increase in production times. Factories all across the world have made strides in automation, in some cases creating a “workerless” workspace. While this method of automation servers the purpose of increasing profits, the loss of human work has negative ramifications on the ones who were previously employed.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/Medical.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p><img src="images/creative_common.png" width="90" height="30" alt="Creative Commons"><em> <a href="mailto: esb17b@fsu.edu">Elijah Butts</a></em></p>
+      </footer>
+
+    </div>
+
+
+    <!-- Bootstrap and JavaScript -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+  </body>
+</html>
